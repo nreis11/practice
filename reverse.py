@@ -14,6 +14,14 @@ def reverse_2(word):
     modified = ''
     i = -1
     for item in range(len(word)):
-        modified = modified + word[i]
+        modified += word[i]
         i -= 1
-    print modified
+    return modified
+
+def reverse_3(word):
+    modified = ''
+    lastPos = len(word) - 1
+    while lastPos > -1:
+      modified += word[lastPos]
+      lastPos -= 1
+      return modified
