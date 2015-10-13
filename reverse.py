@@ -16,6 +16,7 @@ def reverse_2(word):
     for item in range(len(word)):
         modified += word[i]
         i -= 1
+        print modified
     return modified
 
 def reverse_3(word):

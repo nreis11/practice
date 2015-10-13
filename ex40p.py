@@ -3,6 +3,7 @@ def apple():
 
 tangerine = "Living reflection of a dream."
 
+
 class MyStuff(object):
     def __init__(self):
         self.tangerine = "And now a thousand years between"

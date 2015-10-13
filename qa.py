@@ -16,8 +16,9 @@ qa = {
 
 qa_copy = dict(qa)
 num = int(raw_input("How many questions would you like? (1 - 20)"))
-score = 0
+score = 0.0
 
+print "\nComplete these popular expressions:"
 for i in range(num):
     question = random.choice(list(qa_copy.keys()))
     answer = qa_copy.pop(question)
