@@ -16,6 +16,18 @@ def area_circle(r):
 def area_hexagon(r):
     return area(r, 3 * sqrt(3) / 2)
 
+def sum_naturals(n):
+    """Sum the first n natural numbers.
+
+    >>> sum_naturals(5)
+    15
+    """
+
+    total, k = 0, 1
+    while k <= n:
+        total, k = total + k, k + 1
+    return total
+
 def make_adder(n):
     """Returns a function that takes argument K and
     returns K + N.
